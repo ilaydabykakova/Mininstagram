@@ -1,0 +1,77 @@
+﻿body{background-color:#fafafa; font-family: 'Titillium Web', sans-serif; font-size: 16px; text-align: justify;}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+/*html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1}*/
+
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none; outline:none; border:0; }
+a:hover{text-decoration:none}
+a:focus{text-decoration:none; color:#ffffff;}
+textarea { border:0; outline:0; }
+input[type=text]  { border:0; outline:0; }
+input[type=button], input[type=submit]  {border:0; outline:0; appearance:none; -moz-appearance:none; -webkit-appearance:none;}
+/*tablo*/
+.container .iphone{float:right;margin-top:98px;margin-left:50px;}
+.kutu {background-color:white;border:1px solid #e6e6e6;padding:40px;float:left;width:350px;height: 367px;;margin-top:145px;}
+  .kutu img.logo {margin-left:42px;margin-bottom:20px;}
+  .kutu .buton1 button[type=button]{ background:#3897f0;
+    border-color: #3897f0;
+    color: #fff;padding:3px 12px;cursor:pointer;width:100%;display:block;text-align:center;border: 1px solid #3897f0;margin-bottom:20px;
+    border-radius: 2px;}
+   .kutu .form-area .form-group {margin-bottom:5px;}
+  .kutu .form-area .form-group input{border:1px solid #ccc;border-radius:1px;background-color:#fafafa;box-shadow:none;font-size:11px;margin-bottom:0px;} 
+  .kutu .form-area .form-group input[type=password]{margin-bottom:15px;}
+   .kutu .cizgi{margin-bottom:25px;}
+  .kutu .cizgi span.lineleft{border:1px solid #ccc;display:inline-block;width:80px;float:left;-webkit-box-flex: 1;margin-top:9px;}
+    .kutu .cizgi span.lineright{border:1px solid #ccc;display:inline-block;width:80px;float:right;-webkit-box-flex: 1;margin-top:-19px;}
+    .kutu .form-area p {text-align:center;font-size:12px;color: #999;font-weight: 600;width:184px;
+    line-height: 15px;text-transform: uppercase;}
+    .kutu .withfblogin{width:300px;height:30px;margin-left:48px;margin-bottom:8px;}
+     .kutu .withfblogin a{color: #385185;font-size:14px;}
+    .kutu .passwd a {
+        text-decoration: none;
+        margin-left:85px;
+    outline: none;
+    border: 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #003569;}
+    .kutu2{background: #fff;
+    width: 350px;
+    padding: 26px 0 16px 0;
+    margin-top: 13px;
+    text-align: center;
+    border: 1px solid #e6e6e6; border-radius: 1px;}
+.kutu2 p{font-size: 14px;color: #262626;margin-bottom:0px;
+}
+.kutu2 p a{ color: #3897f0;}
+ #uygulama{    color: #262626;
+    font-size: 14px;
+    line-height: 18px;margin-bottom:0px;
+    padding: 2px 20px 0 118px;}
+ .link img{margin-top:20px;margin-left:30px;}
+ .footer{margin-top:40px;}
+  .footer .container{text-align:center}
+ .footer ul{display:inline-block;vertical-align: baseline;margin-top:98px; text-align:center;padding-right:10px;
+}
+ .footer ul li{float: left; padding-right:15px; position: relative;
+}
+ .footer ul li a{color: #003569;
+    text-decoration: none; font-weight:bold;font-size:small; text-align:center}
+ .cpyright{color:#999;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size: 14px;display:block;margin-top:98px}
